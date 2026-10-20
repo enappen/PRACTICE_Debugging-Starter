@@ -26,9 +26,16 @@ nav {
   gap: 1rem;
 }
 
+
 a:focus {
-  outline: none;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
+/*
+a:focus-visible {
+  outline: none;
+}*/
 
 main {
   padding: 2rem;
